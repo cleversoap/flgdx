@@ -2,7 +2,7 @@ package flgdx.events;
 
 import java.lang.reflect.Method;
 
-public class EventListenerPair
+class EventListenerPair
 {
     protected Object _listener;
     protected Method _method;
