@@ -41,6 +41,7 @@ class EventListenerPair
         }
         catch(Exception ex)
         {
+            // TODO: Dispose of the listener if it's null?
             return false;
         }
     }
